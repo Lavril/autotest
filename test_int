@@ -4,3 +4,7 @@ def test_positive(x):
 
 def test_even(x):
     assert x % 2 == 0
+
+
+def test_a_bigger_b(a,b):
+    assert a > b
