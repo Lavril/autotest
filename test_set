@@ -1,1 +1,10 @@
+def test_is_sim(A, B):
+    assert A == B
 
+
+def test_more_10(s):
+    assert len(s) > 10
+    
+
+def test_numb(s):
+    assert '0123456789' in s
